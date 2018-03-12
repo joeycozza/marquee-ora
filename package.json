@@ -1,0 +1,28 @@
+{
+  "name": "marquee-ora",
+  "version": "0.0.1",
+  "description": "A tool to create ora compatible spinner objects that behave like a scrolling marquee",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeycozza/marquee-ora.git"
+  },
+  "keywords": [
+    "ora",
+    "spinner",
+    "marquee",
+    "cli",
+    "command-line",
+    "scroll",
+    "scrolling"
+  ],
+  "author": "Joey Cozza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeycozza/marquee-ora/issues"
+  },
+  "homepage": "https://github.com/joeycozza/marquee-ora#readme"
+}
