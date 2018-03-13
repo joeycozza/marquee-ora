@@ -25,7 +25,7 @@ setTimeout(() => {
   spinner.stop();
 }, 3000);
 ```
-
+This gif looks really slow, but the default interval isn't this bad, this is just the gif appearing slow
 ![This marquee rocks!! Scrolling](https://github.com/joeycozza/marquee-ora/raw/master/gifs/thisMarqueeRocks.gif)
 
 ```javascript
@@ -35,8 +35,9 @@ const marquee = require('marquee');
 const spinner = ora({
   text: 'This is a scrolling marquee',
   spinner: marquee({
-    text: 'I pause when fully in view',
-    fullTextFrames: 8
+    text: 'Pause when fully in view',
+    fullTextFrames: 15,
+    interval: 50
   })
 });
 
@@ -47,7 +48,7 @@ setTimeout(() => {
 }, 3000);
 ```
 
-![Pause on Full Text](https://github.com/joeycozza/marquee-ora/raw/master/gifs/fullTextPausing.gif)
+![Pause on Full Text](https://github.com/joeycozza/marquee-ora/raw/master/gifs/fullTextPause.gif)
 
 ## Options
 ### text
@@ -72,6 +73,7 @@ If smaller than `text` length, then you won't be able to see the full text at on
 #### type: Integer default=100
 Number of milliseconds for each "frame" to be active. This is passed directly to ora's `interval` option
 
+## Example using All Options
 ```javascript
 const ora = require('ora');
 const marquee = require('./index');
