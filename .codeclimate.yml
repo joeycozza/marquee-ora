@@ -1,0 +1,8 @@
+---
+plugins:
+  eslint:
+    enabled: true
+    channel: "eslint-4"
+    config:
+      extensions:
+        - .js
