@@ -71,3 +71,26 @@ If smaller than `text` length, then you won't be able to see the full text at on
 ### interval
 #### type: Integer default=100
 Number of milliseconds for each "frame" to be active. This is passed directly to ora's `interval` option
+
+```javascript
+const ora = require('ora');
+const marquee = require('./index');
+
+const spinner = ora({
+  text: 'This is a scrolling marquee',
+  spinner: marquee({
+    text: 'Using lots of options',
+    fullTextFrames: 8,
+    viewWidth: 29,
+    fill: '-',
+    interval: 20
+  })
+});
+
+spinner.start();
+
+setTimeout(() => {
+  spinner.stop();
+}, 3000);
+```
+![Using Many Options](https://github.com/joeycozza/marquee-ora/raw/master/gifs/usingManyOptions.gif)

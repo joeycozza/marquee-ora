@@ -4,8 +4,11 @@ const marquee = require('./index');
 const spinner = ora({
   text: 'This is a scrolling marquee',
   spinner: marquee({
-    text: 'I pause when fully in view',
-    fullTextFrames: 8
+    text: 'Using lots of options',
+    fullTextFrames: 8,
+    viewWidth: 29,
+    fill: '-',
+    interval: 20
   })
 });
 
