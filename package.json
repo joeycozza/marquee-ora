@@ -1,7 +1,7 @@
 {
   "name": "marquee-ora",
-  "version": "0.1.0",
-  "description": "A tool to create ora compatible spinner objects that behave like a scrolling marquee",
+  "version": "1.0.0",
+  "description": "A tool to create an ora compatible spinner objects that behave like a scrolling marquee",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",

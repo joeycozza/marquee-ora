@@ -2,7 +2,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/192675607b7e88b61e65/maintainability)](https://codeclimate.com/github/joeycozza/marquee-ora/maintainability)
 
 # marquee-ora
-A tool to create ora compatible spinner object that behaves like a scrolling marquee
+A tool to create an ora compatible spinner object that behaves like a scrolling marquee
 
 ## Install
 `npm install -g marquee-ora`
