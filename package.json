@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/joeycozza/marquee-ora/issues"
   },
-  "homepage": "https://github.com/joeycozza/marquee-ora#readme"
+  "homepage": "https://github.com/joeycozza/marquee-ora#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "nyc": "^11.4.1"
+  }
 }
