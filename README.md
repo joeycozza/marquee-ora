@@ -5,7 +5,7 @@
 A tool to create an ora compatible spinner object that behaves like a scrolling marquee
 
 ## Install
-`npm install -g marquee-ora`
+`npm install --save marquee-ora`
 
 ## Usage
 This module is to be used in conjunction with [ora](https://github.com/sindresorhus/ora) the elegant terminal spinner.
