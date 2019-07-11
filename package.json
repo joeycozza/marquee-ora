@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "A tool to create an ora compatible spinner objects that behave like a scrolling marquee",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "nyc mocha",
     "coverage": "nyc mocha; nyc report --reporter=html && open coverage/index.html"
