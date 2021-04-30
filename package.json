@@ -1,6 +1,6 @@
 {
   "name": "marquee-ora",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A tool to create an ora compatible spinner objects that behave like a scrolling marquee",
   "main": "index.js",
   "files": [
@@ -11,7 +11,7 @@
     "coverage": "nyc mocha; nyc report --reporter=html && open coverage/index.html"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=10"
   },
   "eslintConfig": {
     "parserOptions": {
